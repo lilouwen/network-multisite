@@ -179,7 +179,7 @@ Exemples de filtres d’affichage, et non de filtres de capture :
 | `icmp` | Requêtes, réponses et erreurs ICMP |
 | `vlan.id == 10` | Trames étiquetées VLAN 10 si les tags sont visibles au point de capture |
 | `ospf` | Échanges OSPF observables sur la liaison capturée |
-| `udp.port == 67 || udp.port == 68` | Échanges DHCPv4 |
+| `udp.port == 67 \|\| udp.port == 68` | Échanges DHCPv4 |
 | `dns` | Requêtes et réponses DNS |
 | `ip.addr == 10.10.10.10` | Trafic d’un hôte fictif de l’exemple |
 | `tcp.analysis.retransmission` | Indices de retransmission TCP à contextualiser |
